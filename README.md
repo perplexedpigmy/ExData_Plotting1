@@ -1,3 +1,20 @@
+# Plotting excercise 1
+The full description as provided can be seen below the author's design decision.
+
+## Implementation design
+Each of the tasks can be broken into 2 parts. 
+- Getting the data file (*common.R*)
+- Plotting the diagrams (*plot1.R*, *plot2.R*, *plot3.R*, *plot4.R*)
+
+Getting the data and tagging it, is common for all the tasks and was separated into 
+an independent file callded **common.R**. 
+Although this file could have been more specialized for thie excercise and already known
+the data to be downloaded and the rows of interest, as to facilitate the users code.
+The author has arbitrarily decided to make **common.R** generic, so it may be used in future
+excercises, after all data fetching is one of the pillars of Data Science, and it's never 
+too early to start collecting/implementing your tools of trade.
+
+
 ## Introduction
 
 This assignment uses data from
