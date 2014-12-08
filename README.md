@@ -14,6 +14,10 @@ The author has arbitrarily decided to make **common.R** generic, so it may be us
 excercises, after all data fetching is one of the pillars of Data Science, and it's never 
 too early to start collecting/implementing your tools of trade.
 
+## Assumptions
+The file was read assuming that it is immutable. 
+alternative would have been to spend more time and space reading the entire file.
+
 
 ## Introduction
 
